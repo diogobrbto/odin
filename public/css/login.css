@@ -1,0 +1,153 @@
+/* //////////////FONTE PADRÃƒO DO SITE KOZUKA_GOTHIC_PRO_HEAVY////////////// */
+/* //////////////FONTE PADRÃƒO DO SITE KOZUKA_GOTHIC_PRO_HEAVY////////////// */
+@font-face {
+    font-family: "padrao_site";
+    src: url("../fonts/KozGoPro-Heavy.otf") ;
+}
+
+/* //////////////FONTE PADRÃƒO REGULAR DO SITE KOZUKA_GOTHIC_PRO_REGULAR////////////// */
+/* //////////////FONTE PADRÃƒO REGULAR DO SITE KOZUKA_GOTHIC_PRO_REGULAR////////////// */
+@font-face {
+    font-family: "padrao_regular";
+    src: url("../fonts/KozGoPro-Regular.otf") ;
+}
+
+/* //////////////FONTE PADRÃƒO BOLD DO SITE KOZUKA_GOTHIC_PRO_BOLD////////////// */
+/* //////////////FONTE PADRÃƒO BOLD DO SITE KOZUKA_GOTHIC_PRO_BOLD////////////// */
+@font-face {
+    font-family: "padrao_bold";
+    src: url("../fonts/KozGoPro-Bold.otf") ;
+}
+
+/* //////////////FONTE PAINEL INTERNO BOLD THEBOLDFONT////////////// */
+/* //////////////FONTE PAINEL INTERNO BOLD THEBOLDFONT////////////// */
+@font-face {
+	font-family: "menu_painel";
+	src: url("../fonts/theboldfont.ttf") ;
+}
+
+/* //////////////FONTE ITEM DO PAINEL INTERNO MONTSERRAT////////////// */
+/* //////////////FONTE ITEM DO PAINEL INTERNO MONTSERRAT////////////// */
+@font-face {
+	font-family: "menu_item";
+	src: url("../fonts/montserrat.otf");
+}
+/* //////////////TIRAR CSS DOS LINKS////////////// */
+/* //////////////TIRAR CSS DOS LINKS////////////// */
+a:link{
+	text-decoration:none;
+}
+
+/* //////////////TIRAR CSS DOS INPUTS////////////// */
+/* //////////////TIRAR CSS DOS INPUTS////////////// */
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+}
+
+
+textarea, input, select {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+}
+
+
+/* ////////////////LOGIN//////////////// */
+/* ////////////////LOGIN//////////////// */
+.background_login{
+	margin: 0px;
+	background: url(../img/back_odin.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/back_odin.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/back_odin.jpg', sizingMethod='scale')";
+}
+
+.login_menssage{
+	position: absolute;
+    z-index: 999;
+    top: 0;
+    height: 2vw;
+    width: 99vw;
+    background-color: #1ca780;
+    font-size: 1.5vw;
+    font-family: padrao_site;
+    text-align: center;
+    padding: 0vw 0vw 1vw 0vw;
+    display: none;
+    color: #fff;
+}
+
+
+.container_login{
+	height: 9vw;
+    width: 13.7vw;
+    position: absolute;
+    top: 65vh;
+    padding: 3vw 3vw 3vw 3vw;
+    margin-left: 40vw;
+    background-color: #fff;
+}
+
+.login_div{
+
+}
+
+.user_form{
+	font-family: padrao_site;
+    font-size: 2vw;
+    width: 13.3vw;
+    line-height: 3vw;
+    border: #476b6d;
+    border-style: solid;
+    border-width: 0.2vw;
+    text-align: center;
+    margin-bottom: 0.2vw;
+    padding: 0;
+}
+
+.user_form:focus{
+	border: #59aeb3;
+    border-style: solid;
+    border-width: 0.2vw;
+}
+
+.password_div{
+
+}
+
+.pass_form{
+	font-family: padrao_site;
+    font-size: 2vw;
+    width: 13.3vw;
+    line-height: 3vw;
+    border: #476b6d;
+    border-style: solid;
+    border-width: 0.2vw;
+    text-align: center;
+    margin-bottom: 0.2vw;
+    padding: 0;
+}
+
+
+.pass_form:focus{
+	border: #59aeb3;
+    border-style: solid;
+    border-width: 0.2vw;
+}
+
+
+.botao_login_div{
+
+}
+
+.submit_form{
+	font-family: padrao_site;
+    font-size: 1vw;
+    width: 13.7vw;
+    line-height: 1.5vw;
+}
