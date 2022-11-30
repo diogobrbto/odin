@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Resource\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/odin', 'login');
 
-Route::get('/odin/login', [LoginController::class, 'login']);
+Route::view('/odin', 'login');
+Route::post('/odin/login', [LoginController::class, 'login'])->name('login');
+
