@@ -73,12 +73,11 @@ textarea, input, select {
     top: 0;
     height: 2vw;
     width: 99vw;
-    background-color: #1ca780;
+    background-color: #415646;
     font-size: 1.5vw;
     font-family: padrao_site;
     text-align: center;
     padding: 0vw 0vw 1vw 0vw;
-    display: none;
     color: #fff;
 }
 
@@ -93,9 +92,6 @@ textarea, input, select {
     background-color: #fff;
 }
 
-.login_div{
-
-}
 
 .user_form{
 	font-family: padrao_site;
@@ -116,9 +112,6 @@ textarea, input, select {
     border-width: 0.2vw;
 }
 
-.password_div{
-
-}
 
 .pass_form{
 	font-family: padrao_site;
@@ -140,10 +133,6 @@ textarea, input, select {
     border-width: 0.2vw;
 }
 
-
-.botao_login_div{
-
-}
 
 .submit_form{
 	font-family: padrao_site;

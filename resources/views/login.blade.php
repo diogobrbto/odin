@@ -9,11 +9,14 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body class="background_login">
+    @if (Session::has('message'))
+        <div id="login_menssage" class="login_menssage" name="login_menssage">{!! Session::get('message') !!}</div>
+    @endif
     <div id="container_login" name="container_login" class="container_login">
         <form name="form_login" id="form_login" class="form_login" method="post" action="{{route('login')}}">
             @csrf
             <div id="login_div" name="login_div" class="login_div">
-                <input type="text" id="user_form" name="user_form" class="user_form" value="USER" onfocus="if(this.value == 'USER')this.value = ''" onblur="if(this.value == '')this.value = 'USER'">
+                <input type="text" id="user_form" name="user_form" class="user_form" value="User" onfocus="if(this.value == 'User')this.value = ''" onblur="if(this.value == '')this.value = 'User'">
             </div>
             <div id="password_div" name="password_div" class="password_div">
                 <input type="password" id="pass_form" name="pass_form" class="pass_form" value="password" onfocus="if(this.value == 'password')this.value = ''" onblur="if(this.value == '')this.value = 'password'">
